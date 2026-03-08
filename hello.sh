@@ -1,3 +1,3 @@
 #!/bin/bash
 echo "Hello, Jenkins build triggered from GitHub!"
-echo "Automation build completed Successfully"
+echo "Automation build has been completed Successfully"

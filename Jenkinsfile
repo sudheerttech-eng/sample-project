@@ -23,6 +23,7 @@ pipeline {
                 body: """Build result: ${currentBuild.currentResult}
                 Console log: ${env.BUILD_URL}console""",
                 to: 'sudheert.tech@gmail.com'
+		recipientProviders: []
             )
         }
     }
