@@ -22,7 +22,7 @@ pipeline {
                 subject: "Jenkins Build - ${currentBuild.fullDisplayName}",
                 body: """Build result: ${currentBuild.currentResult}
                 Console log: ${env.BUILD_URL}console""",
-                to: 'your-email@example.com'
+                to: 'sudheert.tech@gmail.com'
             )
         }
     }
