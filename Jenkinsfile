@@ -10,6 +10,7 @@ pipeline {
 
         stage('Build') {
             steps {
+	        sh 'chmod +x hello.sh'
                 sh './hello.sh'
             }
         }
